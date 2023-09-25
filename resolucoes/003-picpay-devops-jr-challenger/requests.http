@@ -1,0 +1,6 @@
+### READER GOLANG 8080
+GET http://localhost:8080/health HTTP/1.1
+
+
+### WRITER PYTHON 8081
+GET http://localhost:8081/health HTTP/1.1

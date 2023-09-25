@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  web:
+    build: services/frontend
+    ports:
+      - "5000:5000"
+    networks:
+      - frontend
+      - backend
+  reader:
+    build: services/reader
+    # image: dalmofelipe/algone-reader:1.0.0
+    ports:
+      - "8080:8080"
+    networks:
+      - backend
+  writer:
+    build: services/writer
+    # image: dalmofelipe/alpyne-writer:1.0.0
+    ports:
+      - "8081:8081"
+    networks:
+      - backend
+  redis:
+    image: "redis:alpine"
+    networks:
+      - backend
+
+networks:
+  backend:
+  frontend:

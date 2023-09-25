@@ -1,0 +1,9 @@
+{
+  "name": "spa",
+  "scripts": {
+    "start": "serve -p 5000 ./"
+  },
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
