@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-test"
+version = "0.1.0"
+description = "Desafio Python idwall"
+authors = ["dalmofelipe <dalmofelipe.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.97.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
