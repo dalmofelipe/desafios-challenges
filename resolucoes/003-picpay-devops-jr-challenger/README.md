@@ -1,6 +1,6 @@
 ## PicPay DevOps JR Challenger
 
-- [ENUNCIADO](https://github.com/dalmofelipe/PicPayDevOpsJrChallenger/blob/master/CHALLENGER.md)
+- [ENUNCIADO](https://github.com/dalmofelipe/desafios-challenges/blob/main/resolucoes/003-picpay-devops-jr-challenger/CHALLENGER.md)
 - [COMMIT #1 - RECONHECENDO O PROJETO](#commit-1---reconhecendo-o-projeto)
 - [COMMIT #2 - FIX BUGS](#commit-2---fix-bugs)
 - [COMMIT #3 - REFATORANDO O WRITER](#commit-3---refatorando-o-writer)
